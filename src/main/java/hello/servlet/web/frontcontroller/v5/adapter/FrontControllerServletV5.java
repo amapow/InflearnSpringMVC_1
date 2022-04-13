@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 @WebServlet(name = "frontControllerServletV5", urlPatterns = "/front-controller/v5/*")
-public class FrontControllerServletV5 extends HttpServlet {
+public class FrontControllerServletV5 extends  HttpServlet {
 
     private final Map<String, Object> handlerMappingMap = new HashMap<>();
     private final List<MyHandlerAdapter> handlerAdapters = new ArrayList<>();
